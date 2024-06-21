@@ -16,7 +16,7 @@ const Navbar = () => {
       <Link href="/">
         <PopOutBtn icon={<HiHome />} text={"Home"} />
       </Link>
-      <Link href="/about">
+      <Link href="#about">
         <PopOutBtn icon={<SiAboutdotme />} text={"About Me"} />
       </Link>
       <Link href="/">
