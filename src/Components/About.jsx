@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="text-center py-20 px-20 min-h-screen flex justify-center items-center">
       <div>
         <div className="text-5xl">About Sami</div>
-        <p className="px-20 py-10 text-xl text-justify">
+        <p className="w-3/5 mx-auto py-10 text-xl text-justify">
           Welcome to my portfolio! As I embark on my journey in the dynamic
           field of web development, I am at the beginning stages of building my
           expertise. My adventure in technology started with earning a Bachelor
