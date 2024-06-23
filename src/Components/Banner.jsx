@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div id="landing" className="flex gap-10 h-screen pl-20 bg-[#FECA25]">
+    <div className="flex gap-10 h-screen pl-20 bg-[#FECA25]">
       <div className="w-1/2  flex justify-center items-center">
         <div className="">
           <h3 className="text-lg font-semibold"> Hi! It&apos;s </h3>

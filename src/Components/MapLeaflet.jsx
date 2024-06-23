@@ -1,13 +1,11 @@
 // // MapComponent.jsx
 // "use client";
 // import React from "react";
-// import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+// imp ort { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 // import L from "leaflet";
 
-// // Fix for default marker icon issues with Webpack
-// import markerIcon from "leaflet/dist/images/marker-icon.png";
 // import markerShadow from "leaflet/dist/images/marker-shadow.png";
-// import { SiHere } from "react-icons/si";
+
 
 // let DefaultIcon = L.icon({
 //   iconUrl:"https://i.ibb.co/jTfCgzd/landmark-removebg-preview.png",

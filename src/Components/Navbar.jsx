@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="flex h-screen items-center">
       <div className="flex flex-col px-2 gap-5">
-      <Link href="#landing">
+      <Link href="/">
         <PopOutBtn icon={<HiHome />} text={"Home"} />
       </Link>
       <Link href="#about">
