@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="grid grid-cols-2 gap-10 h-screen pl-20 bg-[#FECA25] ">
       <div className=" flex justify-center items-center">
         <div>
-          <h3 className="text-lg font-semibold"> Hi! It's </h3>
+          <h3 className="text-lg font-semibold"> Hi! It&apos;s </h3>
           <h1 className="font-extrabold text-7xl">Kazi Sami Ullah</h1>
           <h2 className="text-xl font-bold">
             An Aspiring Web Developer <br />

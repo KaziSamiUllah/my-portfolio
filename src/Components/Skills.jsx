@@ -77,8 +77,9 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="text-center py-20 px-20 min-h-screen flex justify-center items-center"
+      className="text-center px-20 min-h-screen flex flex-col justify-center items-center"
     >
+      <h1 className="text-center my-10 text-3xl">My Skills</h1>
       <div className="grid grid-cols-4 gap-10">
         {skills.map((skill, idx) => (
           <div className="border-2 w-32 text-center h-32" key={idx}>

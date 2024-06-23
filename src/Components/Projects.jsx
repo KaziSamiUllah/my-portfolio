@@ -21,7 +21,11 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="flex justify-center items-center min-h-screen py-10">
+    <div
+      id="projects"
+      className="flex justify-center flex-col items-center min-h-screen py-10"
+    >
+      <h1 className="text-center my-10 text-3xl">My projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-10/12">
         {projects.map((project, idx) => (
           <div key={idx} className="border p-4 rounded-lg shadow-lg ">
@@ -31,7 +35,7 @@ const Projects = () => {
               className="mb-4 w-full "
               src={project.liveURL}
               title={project.title}
-              height="400px"
+              height="300px"
               style={{ border: "none" }}
               sandbox="allow-scripts allow-same-origin"
             ></iframe>
