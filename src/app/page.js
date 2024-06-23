@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <div className=" flex justify-center items-center ">
       <div>
+        <div className="text-center bg-cyan-200">This site is under construction</div>
         <Banner></Banner>
         <About></About>
         <Skills></Skills>
