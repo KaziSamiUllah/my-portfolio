@@ -15,25 +15,17 @@ const Banner = () => {
         </div>
       </div>
       <div className="w-1/2 relative">
-        <div className="flex absolute bottom-0">
-        <Image
-          width="500"
-          height="700"
-          alt="Prifile image"
-          src={"https://i.ibb.co/6Jfwkmq/2.png"}
-        ></Image>
-        </div>
-      </div>
-      {/* <div className="h-screen relative">
-        <div className=" z-10 absolute bottom-0">
+        <div className="flex absolute bottom-0 h-screen">
           <Image
-            width="500"
-            height="700"
+            layout="responsive"
+            width={400}
+            height={500}
+            // objectFit="cover"
             alt="Prifile image"
             src={"https://i.ibb.co/6Jfwkmq/2.png"}
           ></Image>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
