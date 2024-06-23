@@ -2,7 +2,7 @@ import React from "react";
 import { MdAddCall, MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import MapLeaflet from "./MapLeaflet";
+// import MapLeaflet from "./MapLeaflet";
 
 const Contacts = () => {
   return (
@@ -42,7 +42,8 @@ const Contacts = () => {
           </div>
           </div>
           <div>
-            <MapLeaflet></MapLeaflet>
+            Map will be added here
+            {/* <MapLeaflet></MapLeaflet> */}
           </div>
         </div>
       </div>

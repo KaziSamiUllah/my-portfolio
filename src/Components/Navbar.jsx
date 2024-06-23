@@ -2,7 +2,6 @@ import { HiHome } from "react-icons/hi2";
 import PopOutBtn from "./PopOutBtn";
 import Link from "next/link";
 import { SiAboutdotme } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa";
 import { GrTechnology, GrDocumentUser } from "react-icons/gr";
 import { MdContacts, MdOutlineWeb } from "react-icons/md";
 
@@ -13,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="flex h-screen items-center">
       <div className="flex flex-col px-2 gap-5">
-      <Link href="">
+      <Link href="#landing">
         <PopOutBtn icon={<HiHome />} text={"Home"} />
       </Link>
       <Link href="#about">

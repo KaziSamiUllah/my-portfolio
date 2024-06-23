@@ -1,4 +1,4 @@
-import { Inter, Roboto } from "next/font/google";
+import {  Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import 'leaflet/dist/leaflet.css';
@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <Navbar/> */}
+
       <body className={roboto.className}>
       <div className=" z-20 text-green-500 w-fit fixed">
         <Navbar />
