@@ -1,6 +1,8 @@
 "use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Skills = () => {
@@ -50,7 +52,7 @@ const Skills = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     },
     {
-      name: "API",
+      name: "RESTful API",
       icon: "https://cdn-icons-png.flaticon.com/512/126/126473.png",
     }, // Example icon
     {
@@ -61,16 +63,25 @@ const Skills = () => {
       name: "Axios",
       icon: "https://avatars.githubusercontent.com/u/32372333?s=200&v=4",
     }, // Example icon
-    {
-      name: "Tanstack Query",
-      icon: "https://avatars.githubusercontent.com/u/70711355?s=200&v=4",
-    }, // Example icon
+   
     {
       name: "Stripe",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/2560px-Stripe_Logo%2C_revised_2016.svg.png",
     }
    // Example icon
   ];
+
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out-sine',
+      delay: 50,
+      offset: 120,
+      once: true,
+      mirror: false,
+    });
+    AOS.refresh();
+  }, []);
 
 
 
@@ -80,9 +91,9 @@ const Skills = () => {
       className="text-center px-20 min-h-screen flex flex-col justify-center items-center"
     >
       <h1 className="text-center my-10 text-3xl">My Skills</h1>
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10">
         {skills.map((skill, idx) => (
-          <div className="border-2 w-32 text-center h-32" key={idx}>
+          <div data-aos="flip-left" className="border-2 p-4 rounded-full w-40 text-center h-40 drop-shadow-lg hover:bg-cyan-50 hover:bg-opacity-50" key={idx}>
             <Image
             className="mx-auto h-3/5"
               height="50"
@@ -91,7 +102,7 @@ const Skills = () => {
               alt={skill.name}
             ></Image>
 
-            <h1>{skill.name}</h1>
+            <h1 className="font-bold mt-2">{skill.name}</h1>
           </div>
         ))}
       </div>

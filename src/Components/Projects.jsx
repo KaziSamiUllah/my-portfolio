@@ -6,16 +6,24 @@ const Projects = () => {
       title: "Readopia",
       description: "Library management system with user-friendly features.",
       liveURL: "https://readopia-a11-t008.web.app",
-      frontEndGithub: "https://github.com/yourusername/readopia-client",
-      backEndGithub: "https://github.com/yourusername/readopia-server",
+      frontEndGithub: "https://github.com/KaziSamiUllah/A11-Readopia-Client",
+      backEndGithub: "https://github.com/KaziSamiUllah/A11-Readopia-Server",
       image: "https://via.placeholder.com/300", // Placeholder image URL
     },
     {
       title: "Study Circle",
       description: "Collaborative learning platform for students.",
       liveURL: "https://study-circle-a12.web.app",
-      frontEndGithub: "https://github.com/yourusername/studycircle-client",
-      backEndGithub: "https://github.com/yourusername/studycircle-server",
+      frontEndGithub: "https://github.com/KaziSamiUllah/StudyCircle-Client",
+      backEndGithub: "https://github.com/KaziSamiUllah/A12-StudyCircle-Server",
+      image: "https://via.placeholder.com/300", // Placeholder image URL
+    },
+    {
+      title: "Serene Stay Estates",
+      description: "A platform to find accommodations including hotels, motels, resorts, vacation rentals, lodges, and guesthouses around the world.",
+      liveURL: "https://assignment-9-eeed3.web.app/",
+      frontEndGithub: "https://github.com/KaziSamiUllah/A9-Serene-Stay-Estates",
+      backEndGithub: "/",
       image: "https://via.placeholder.com/300", // Placeholder image URL
     },
   ];

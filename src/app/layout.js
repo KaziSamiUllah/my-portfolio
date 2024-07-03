@@ -12,6 +12,10 @@ export const metadata = {
   title: "Portfolio | Kazi Sami Ullah",
   description: "The portfolio site of Kazi Sami Ullah",
 };
+
+
+
+
 <script
   async
   src="node_modules/@material-tailwind/html/scripts/ripple.js"

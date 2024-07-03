@@ -1,11 +1,25 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out-sine',
+      delay: 50,
+      offset: 120,
+      once: true,
+      mirror: false,
+    });
+  }, []);
+
   return (
-    <div id="about" className="text-center py-20 px-20 min-h-screen flex justify-center items-center">
+    <div data-aos="zoom-in" id="about" className="text-center py-20 px-5 lg:px-20 min-h-screen flex justify-center items-center">
       <div>
-        <div className="text-5xl">About Sami</div>
-        <p className="w-3/5 mx-auto py-10 text-xl text-justify">
+        <div className="text-5xl">About Me</div>
+        <p className="lg:w-3/5 mx-auto py-10 text-xl text-justify">
           Welcome to my portfolio! As I embark on my journey in the dynamic
           field of web development, I am at the beginning stages of building my
           expertise. My adventure in technology started with earning a Bachelor
