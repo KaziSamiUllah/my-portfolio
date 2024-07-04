@@ -5,6 +5,7 @@ import Projects from "@/Components/Projects";
 import Resume from "@/Components/Resume";
 import Contacts from "@/Components/Contacts";
 import Footer from "@/Components/Footer";
+import Education from "@/Components/Education";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Banner></Banner>
         <About></About>
         <Skills></Skills>
+        <Education></Education>
         <Projects></Projects>
         <Resume></Resume>
         <Contacts></Contacts>

@@ -4,15 +4,17 @@ import Link from "next/link";
 import { SiAboutdotme } from "react-icons/si";
 import { GrTechnology, GrDocumentUser } from "react-icons/gr";
 import { MdContacts, MdOutlineWeb } from "react-icons/md";
+import { FaUserGraduate } from "react-icons/fa";
+
 
 
 
 
 const Navbar = () => {
   return (
-    <div className="flex h-screen items-center">
+    <div className="flex h-screen items-center opacity-20  hover:opacity-85 transition duration-500">
       <div className="flex flex-col px-2 gap-5">
-      <Link href="/">
+      <Link className="hover:scale-125 translate-x-10" href="/">
         <PopOutBtn icon={<HiHome />} text={"Home"} />
       </Link>
       <Link href="#about">
@@ -20,6 +22,9 @@ const Navbar = () => {
       </Link>
       <Link href="#skills">
         <PopOutBtn icon={<GrTechnology />} text={"Skills"} />
+      </Link>
+      <Link href="#education">
+        <PopOutBtn icon={<FaUserGraduate />} text={"Education"} />
       </Link>
       <Link href="#projects">
         <PopOutBtn icon={<MdOutlineWeb />} text={"Projects"} />
