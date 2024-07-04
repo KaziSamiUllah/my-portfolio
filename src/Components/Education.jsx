@@ -10,8 +10,8 @@ const Education = () => {
         </div>
         <div className="text-lg">
           <h1>I graduated with a</h1>
-          <h1 className="text-3xl">Bachelor of Science</h1>
-          <h1>in </h1>
+          <h1 className="text-3xl">Bachelor of Science degree</h1>
+          <h1>in</h1>
           <h1 className="text-2xl">Electronics and Telecommunication Engineering</h1>
           <h1>from</h1>
           <h1 className="text-2xl"> International Islamic University Chittagong</h1>
