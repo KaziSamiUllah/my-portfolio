@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="flex h-screen items-center opacity-20  hover:opacity-85 transition duration-500">
       <div className="flex flex-col px-2 gap-5">
-      <Link className="hover:scale-125 translate-x-10" href="/">
+      <Link href="/">
         <PopOutBtn icon={<HiHome />} text={"Home"} />
       </Link>
       <Link href="#about">
